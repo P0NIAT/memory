@@ -3,12 +3,14 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-	{ src: './img/helmet-1.png', matched: false },
-	{ src: './img/potion-1.png', matched: false },
-	{ src: './img/ring-1.png', matched: false },
-	{ src: './img/scroll-1.png', matched: false },
-	{ src: './img/shield-1.png', matched: false },
-	{ src: './img/sword-1.png', matched: false },
+	{ src: './img/abraham.jpg', matched: false },
+	{ src: './img/daniel.jpg', matched: false },
+	{ src: './img/mary.jpg', matched: false },
+	{ src: './img/moses.jpg', matched: false },
+	{ src: './img/paul.jpg', matched: false },
+	{ src: './img/peter.jpg', matched: false },
+	{ src: './img/rahab.jpg', matched: false },
+	{ src: './img/samson.jpg', matched: false },
 ];
 
 function App() {
@@ -73,7 +75,7 @@ function App() {
 
 	return (
 		<div className='App'>
-			<h1>Memory Cards</h1>
+			<h2>Bible Cards</h2>
 			<button onClick={shuffleCards}>New Game</button>
 
 			<div className='card-grid'>
